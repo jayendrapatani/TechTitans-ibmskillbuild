@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EcoSentinel – Life on Land</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #388e3c;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #4CAF50;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #d4edda;
+        }
+        section {
+            padding: 30px 20px;
+            background: white;
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #388e3c;
+            border-bottom: 2px solid #388e3c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 15px;
+        }
+        li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+        li .icon {
+            color: #4ade80;
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        .flowchart-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .flowchart-image {
+            max-width: 90%;
+            max-height: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .sections-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        .section-box {
+            flex: 1;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            border-top: 4px solid #4ade80;
+        }
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1e3a29;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .section-icon {
+            margin-right: 8px;
+            color: #4ade80;
+        }
+        footer {
+            background: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>EcoSentinel – Life on Land</h1>
+    <p>A Conservation & Technology Initiative by TechTitans</p>
+</header>
+
+<nav>
+    <a href="#intro">Introduction</a>
+    <a href="#problem">Problem</a>
+    <a href="#solution">Solution</a>
+    <a href="#model">System Model</a>
+    <a href="#tools">Technical Tools</a>
+    <a href="#impact">Expected Impact</a>
+    <a href="#team">Team</a>
+</nav>
+
+<section id="intro">
+    <h2>Introduction</h2>
+    <p>Forests and biodiversity are fundamental to maintaining ecological balance, regulating the climate, and supporting human life. They are crucial for producing oxygen, storing carbon, and regulating rainfall. However, these vital systems are under severe threat from rapid deforestation, soil degradation, biodiversity loss, and illegal wildlife trade. The <b>EcoSentinel</b> project addresses these challenges through technology, awareness campaigns, and active community participation. This initiative aligns with the United Nations Sustainable Development Goal 15: Life on Land.</p>
+    <img src="https://cdn.pixabay.com/photo/2020/06/03/22/14/forest-5257331_1280.jpg" alt="Green Forest">
+</section>
+
+<section id="problem">
+    <h2>Problem Statement</h2>
+    <p>Our planet faces significant threats to its land-based ecosystems:</p>
+    <ul>
+        <li>Deforestation for agriculture and urbanization.</li>
+        <li>Rising illegal poaching and wildlife trafficking.</li>
+        <li>Soil erosion and land degradation.</li>
+        <li>Loss of wildlife habitats and biodiversity.</li>
+        <li>Lack of modern tools for real-time monitoring of forest health and illegal activities.</li>
+    </ul>
+    <img src="https://www.wwf.org.uk/sites/default/files/styles/gallery_image/public/2020-10/Deforestation.jpg" alt="Deforestation">
+</section>
+
+<section id="solution">
+    <h2>Our Solution: EcoSentinel</h2>
+    <p>EcoSentinel offers a comprehensive solution that blends technology with ground-level action:</p>
+    <ul>
+        <li><i class="fas fa-satellite icon"></i> <span>Real-time forest observation using satellite imagery and environmental sensors.</span></li>
+        <li><i class="fas fa-users icon"></i> <span>Afforestation and habitat restoration supported by local communities.</span></li>
+        <li><i class="fas fa-bullhorn icon"></i> <span>Public reporting platform for suspicious or harmful activities in forest areas.</span></li>
+        <li><i class="fas fa-graduation-cap icon"></i> <span>Training programs for volunteers to enhance conservation efforts.</span></li>
+    </ul>
+    <img src="https://page.gensparksite.com/slides_images/800cf98877ece6ad3a53ed39588096fc.webp" alt="Wildlife Conservation Technology">
+</section>
+
+<section id="model">
+    <h2>System Model – Structure</h2>
+    <p>The EcoSentinel model is structured into three layers to ensure efficient conservation management.</p>
+    <div class="flowchart-container">
+        <img class="flowchart-image" src="https://page.gensparksite.com/slides_images/4eab231707573ebdfe25a072e743fe19.jpg" alt="System Flowchart">
+    </div>
+    <div class="sections-container">
+        <div class="section-box">
+            <h3 class="section-title"><i class="fas fa-arrow-right section-icon"></i>Input Layer</h3>
+            <p>Collects data from satellite imagery, environmental sensors, and field reports.</p>
+        </div>
+        <div class="section-box">
+            <h3 class="section-title"><i class="fas fa-cogs section-icon"></i>Processing Layer</h3>
+            <p>Data analysis, classification, and risk assessment for environmental threats.</p>
+        </div>
+        <div class="section-box">
+            <h3 class="section-title"><i class="fas fa-arrow-left section-icon"></i>Output Layer</h3>
+            <p>Generates alerts, conservation plans, and visual maps for stakeholders.</p>
+        </div>
+    </div>
+</section>
+
+<section id="tools">
+    <h2>Technical Tools & Implementation</h2>
+    <p>EcoSentinel uses a reliable and scalable tech stack:</p>
+    <ul>
+        <li><i class="fas fa-cloud icon"></i> <span>Hosted on secure cloud platforms with dedicated analytical tools.</span></li>
+        <li><i class="fas fa-map-marked-alt icon"></i> <span>Integrated with GIS mapping, accessible via mobile and web apps.</span></li>
+        <li><i class="fas fa-database icon"></i> <span>Data securely stored and managed in cloud databases.</span></li>
+        <li><i class="fas fa-chart-line icon"></i> <span>Interactive dashboards for decision-makers.</span></li>
+    </ul>
+    <img src="https://www.ibm.com/blogs/research/wp-content/uploads/2023/07/20230712-watsonx-hero-1600x900.jpg" alt="Data Visualization Interface">
+</section>
+
+<section id="impact">
+    <h2>Expected Impact & Metrics</h2>
+    <p>EcoSentinel aims to achieve measurable conservation results:</p>
+    <ul>
+        <li>Increase green cover in targeted regions within a defined timeframe.</li>
+        <li>Reduce illegal logging incidents through early warnings.</li>
+        <li>Boost community involvement via training and awareness programs.</li>
+        <li>Provide environmental data insights for policy-making.</li>
+        <li>Enhance protection for endangered wildlife.</li>
+    </ul>
+</section>
+
+<section id="team">
+    <h2>Team TechTitans</h2>
+    <p>Project by TechTitans, a dedicated team of technologists committed to preserving the planet’s biodiversity.</p>
+    <ul>
+        <li>Jayendra Patani</li>
+        <li>Maulik Parmar</li>
+        <li>Sparsh Desai</li>
+        <li>Plarajsinh Parmar</li>
+    </ul>
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/12/54/team-1868750_1280.jpg" alt="Team TechTitans">
+</section>
+
+<footer>
+    <p>&copy; 2025 Project by TechTitans | Environmental Conservation Initiative</p>
+</footer>
+
+</body>
+</html>
